@@ -32,17 +32,17 @@ mvn -v
 
 ### Build
 
-1.  `$ cd daytrader-portfoliosapp`
+1.  `cd daytrader-portfoliosapp`
 
-2.  `$ mvn package`
+2.  `mvn clean install`
 
     This command builds the Spring Boot executable WAR
 
 ### Start
 
-1.  `$ cd daytrader-portfolios`
+1.  `cd daytrader-portfolios`
 
-2.  `$ ./env/external/bin/start_server.sh`
+2.  `./env/external/bin/start_server.sh`
 
     This command runs the Spring Boot executable WAR
     
